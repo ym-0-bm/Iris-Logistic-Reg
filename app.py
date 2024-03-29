@@ -11,10 +11,10 @@ st.header("Saisissez les caractéristiques de la fleur :")
 
 # Récupération des données saisies par l'utilisateur pour les caractéristiques
 # (adaptez aux caractéristiques de votre modèle)
-longueur_sepale = st.number_input("Sepal.Length", min_value=0.0)
-largeur_sepale = st.number_input("Sepal.Width", min_value=0.0)
-longueur_petale = st.number_input("Petal.Length", min_value=0.0)
-largeur_petale = st.number_input("Petal.Width", min_value=0.0)
+longueur_sepale = st.number_input("la longueur du sépale", min_value=0.0)
+largeur_sepale = st.number_input("la largeur du sépale", min_value=0.0)
+longueur_petale = st.number_input("la longueur du pétale", min_value=0.0)
+largeur_petale = st.number_input("la largeur du pétale", min_value=0.0)
 
 # Création d'un DataFrame à partir des saisies de l'utilisateur (facultatif pour certains modèles)
 data = pd.DataFrame({
